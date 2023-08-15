@@ -13,4 +13,7 @@ public interface IstatisticsRepository extends JpaRepository<IstatisticsDto,Long
             "(SELECT COUNT(w) FROM Worker w) AS worker_num")
     IstatisticsDto getAllInfo();
 
+
+
+
 }
